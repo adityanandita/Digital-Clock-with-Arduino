@@ -46,7 +46,7 @@ void setup(){
 	DDRD = 0b11111111;
 	DDRB = 0b00111111;
 	H,M,S = 0;
-  mode_counter = 0;
+        mode_counter = 0;
 	pinMode(A0, INPUT_PULLUP);  // Tombol jam
 	pinMode(A1, INPUT_PULLUP);  // Tombol menit
 	pinMode(A2, INPUT_PULLUP);  // Tombol ganti mode
